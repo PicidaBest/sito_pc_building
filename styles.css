@@ -1,0 +1,110 @@
+body{
+background-image: url("https://www.axatel.it/wp-content/uploads/2019/10/test.gif");
+background-repeat: no-repeat;
+    background-size: auto;
+}
+nav ul{
+width:1800px;
+height:800px;
+position:absolute;
+left:50px;
+top:300px;
+text-align: center;
+}
+nav ul li{
+  list-style-type: none;
+   display: inline-block;
+   margin-right:200px;
+   margin-top:50px;
+   border: 30px outset ;
+   border-color:#14ffe0;
+   border-radius:50px;
+   animation:infinite;
+   animation-name: ultraepilessia;
+  animation-duration: 10s;
+  background-color:#14ffe0;
+}
+@keyframes ultraepilessia {
+  0%  {
+    border-color: #001a70;
+    background-color:#001a70;
+  }
+  10% {
+    border-color: #00249e;
+    background-color:#00249e;
+  }
+  20% {
+    border-color: #14ffe0;
+    background-color:#14ffe0;
+  }
+  30% {
+    border-color: #14ffe0;
+    background-color:#14ffe0;
+  }
+  40% {
+    border-color: #14ffe0;
+    background-color:#14ffe0;
+  }
+  50% {
+    border-color: #14ffe0;
+    background-color:#14ffe0;
+  }
+  60% {
+    border-color: #14ffe0;
+    background-color:#14ffe0;
+  }
+  70% {
+    border-color: #14ffe0;
+    background-color:#14ffe0;
+  }
+  80% {
+    border-color: #14ffe0;
+    background-color:#14ffe0;
+  }
+  90% {
+    border-color: #ffffff;
+    background-color:#ffffff;
+  }
+  100% {
+    border-color: #00124f;
+    background-color:#00124f;
+  }
+}
+nav ul li a{
+ font-family:Impact, fantasy;
+ font-size:50px;
+}
+a{
+  color:white;
+  text-decoration: none;
+  animation:infinite;
+  animation-name:GordonAgrippa;
+  animation-duration: 10s;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+@keyframes GordonAgrippa{
+  0%{
+    color:white;
+  }
+  90%{
+    color:white;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  }
+  100%{
+    color:black;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+  }
+}
+header{
+font-size:50px;
+  color:black;
+  text-align:center;
+   text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+}
+footer p{
+  left:800px;
+  bottom:10px;
+  position:absolute;
+  color:#03fcc6;
+  text-align:center;
+}
